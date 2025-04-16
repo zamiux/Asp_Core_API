@@ -7,7 +7,7 @@ namespace CityInfo_API.Controllers
     // route 3: [Route("api/cities")]
     // route 2: [Route("api/[controller]")]
     [Route("api/cities")]
-    public class CitiesController : Controller
+    public class CitiesController : ControllerBase
     {
         //route 1 with action type :
         //[HttpGet("api/cities")] // url : domain.com/api/cities
